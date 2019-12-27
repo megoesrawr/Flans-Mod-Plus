@@ -70,10 +70,10 @@ import java.util.zip.ZipFile;
 import java.util.zip.ZipInputStream;
 
 @SuppressWarnings({"unused", "WeakerAccess"})
-@Mod(modid = FlansMod.MODID, name = "Flan's Mod Ultimate (Stability Edition)", version = FlansMod.VERSION, acceptableRemoteVersions = FlansMod.VERSION, guiFactory = "com.flansmod.client.gui.config.ModGuiFactory")
+@Mod(modid = FlansMod.MODID, name = "Flan's Mod Ultimate (ANDAI Edition)", version = FlansMod.VERSION, acceptableRemoteVersions = FlansMod.VERSION, guiFactory = "com.flansmod.client.gui.config.ModGuiFactory")
 public class FlansMod {
     //Core mod stuff
-    public static Logger logger = LogManager.getLogger("Flan's Mod Ultimate");
+    public static Logger logger = LogManager.getLogger("ANDAI Flans");
     public static boolean DEBUG = false;
     public static Configuration configFile;
     public static final String MODID = "flansmod";
