@@ -744,8 +744,8 @@ public class GunType extends PaintableType implements IScope {
 
             //DivisionGuard
 			else if (split[0].equalsIgnoreCase("YearIntroduced")) {
+                Integer.parseInt(split[1]);
 				yearIntroduced = split[1];
-				Integer.parseInt(split[1]);
 			}
 
         } catch (Exception e) {
